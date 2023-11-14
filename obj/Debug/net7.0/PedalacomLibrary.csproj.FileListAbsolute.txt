@@ -1,0 +1,12 @@
+C:\Users\Rocco\source\repos\PedalacomLibrary\bin\Debug\net7.0\PedalacomLibrary.deps.json
+C:\Users\Rocco\source\repos\PedalacomLibrary\bin\Debug\net7.0\PedalacomLibrary.dll
+C:\Users\Rocco\source\repos\PedalacomLibrary\bin\Debug\net7.0\PedalacomLibrary.pdb
+C:\Users\Rocco\source\repos\PedalacomLibrary\obj\Debug\net7.0\PedalacomLibrary.csproj.AssemblyReference.cache
+C:\Users\Rocco\source\repos\PedalacomLibrary\obj\Debug\net7.0\PedalacomLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rocco\source\repos\PedalacomLibrary\obj\Debug\net7.0\PedalacomLibrary.AssemblyInfoInputs.cache
+C:\Users\Rocco\source\repos\PedalacomLibrary\obj\Debug\net7.0\PedalacomLibrary.AssemblyInfo.cs
+C:\Users\Rocco\source\repos\PedalacomLibrary\obj\Debug\net7.0\PedalacomLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Rocco\source\repos\PedalacomLibrary\obj\Debug\net7.0\PedalacomLibrary.dll
+C:\Users\Rocco\source\repos\PedalacomLibrary\obj\Debug\net7.0\refint\PedalacomLibrary.dll
+C:\Users\Rocco\source\repos\PedalacomLibrary\obj\Debug\net7.0\PedalacomLibrary.pdb
+C:\Users\Rocco\source\repos\PedalacomLibrary\obj\Debug\net7.0\ref\PedalacomLibrary.dll
