@@ -13,6 +13,7 @@ namespace PedalacomLibrary
 
             try
             {
+                //pippo
                 RandomNumberGenerator.Fill(byteSalt);
 
                 encryptedResult = Convert.ToBase64String(

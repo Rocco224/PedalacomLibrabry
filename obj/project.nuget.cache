@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "NfvJHtSNMTu2rTnV0FMBv2LCXHQhXFXaOOzG6liGzQuD16CeB909ROv5FYGZjLBtkGS81MIcyxi9YKQakN6l6w==",
+  "dgSpecHash": "k4/W1QLoc7ZdAufKf63GE4McXfOe/wmSFc6lXBe8WbntSYt2sbLd7quhB1Ot+YKq4yZt05YuQNEC9uVL5yg/jg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rocco\\source\\repos\\PedalacomLibrary\\PedalacomLibrary.csproj",
+  "projectFilePath": "C:\\Users\\Betacom\\Simone\\PEDALACOM\\PedalacomLibrabry\\PedalacomLibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Rocco\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0\\microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
-    "C:\\Users\\Rocco\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.0\\microsoft.aspnetcore.cryptography.keyderivation.8.0.0.nupkg.sha512"
+    "C:\\Users\\Betacom\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0\\microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
+    "C:\\Users\\Betacom\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.0\\microsoft.aspnetcore.cryptography.keyderivation.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }
