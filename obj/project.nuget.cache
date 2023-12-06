@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ptke4oxKoPnhvtPjkYBftdmHGfqWiXj2E9TOzPRD4gm24/iYaJAdRhnqKIZvWiubh4VtbNC9OwQ/9CdsQ6YfTg==",
+  "dgSpecHash": "cqKVGWO8VRFuATibEe1O8cvWnwwr6c3QrWaqsvegLgJHhKtNh39LqGOyeshS+sXPegKautrQUKDei/vc9Q8vzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rocco\\source\\repos\\PedalacomLibrary\\PedalacomLibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Rocco\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0\\microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
-    "C:\\Users\\Rocco\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.0\\microsoft.aspnetcore.cryptography.keyderivation.8.0.0.nupkg.sha512",
+    "C:\\Users\\Rocco\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.14\\microsoft.aspnetcore.cryptography.internal.7.0.14.nupkg.sha512",
+    "C:\\Users\\Rocco\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.14\\microsoft.aspnetcore.cryptography.keyderivation.7.0.14.nupkg.sha512",
     "C:\\Users\\Rocco\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Rocco\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Rocco\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
@@ -16,12 +16,5 @@
     "C:\\Users\\Rocco\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\Rocco\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Si è verificato un problema durante la lettura del file di cache C:\\Users\\Rocco\\source\\repos\\PedalacomLibrary\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

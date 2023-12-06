@@ -47,7 +47,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[7.0.14, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
