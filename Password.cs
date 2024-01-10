@@ -25,7 +25,7 @@ namespace PedalacomLibrary
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                throw;
             }
 
             return encryptedPassword;
@@ -33,58 +33,52 @@ namespace PedalacomLibrary
 
         public static KeyValuePair<string, string> EncryptSaltPassword(string password)
         {
-            byte[] byteSalt = new byte[16];
-            string encryptedResult = string.Empty;
-            string encryptedSalt = string.Empty;
+            byte[] byteSalt = RandomNumberGenerator.GetBytes(16);
 
             try
             {
-                RandomNumberGenerator.Fill(byteSalt);
-
-                encryptedResult = Convert.ToBase64String(
+                string encryptedResult = Convert.ToBase64String(
                     KeyDerivation.Pbkdf2(
                         password: password,
                         salt: byteSalt,
                         prf: KeyDerivationPrf.HMACSHA256,
-                        iterationCount: 10000,
-                        numBytesRequested: 16)
+                        iterationCount: 100000,
+                        numBytesRequested: 32)
                         );
 
-                encryptedSalt = Convert.ToBase64String(byteSalt);
+                string encryptedSalt = Convert.ToBase64String(byteSalt);
+                
+                return new KeyValuePair<string, string>(encryptedSalt, encryptedResult);
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                throw;
             }
-
-            return new KeyValuePair<string, string>(encryptedSalt, encryptedResult);
         }
 
         public static KeyValuePair<string, string> DecryptSaltPassword(string salt, string password)
         {
             byte[] byteSalt = Convert.FromBase64String(salt);
-            string encryptedResult = string.Empty;
-            string encryptedSalt = string.Empty;
 
             try
             {
-                encryptedResult = Convert.ToBase64String(
+                string encryptedResult = Convert.ToBase64String(
                     KeyDerivation.Pbkdf2(
                         password: password,
                         salt: byteSalt,
                         prf: KeyDerivationPrf.HMACSHA256,
-                        iterationCount: 10000,
-                        numBytesRequested: 16)
+                        iterationCount: 100000,
+                        numBytesRequested: 32)
                         );
 
-                encryptedSalt = Convert.ToBase64String(byteSalt);
+                string encryptedSalt = Convert.ToBase64String(byteSalt);
+                
+                return new KeyValuePair<string, string>(encryptedSalt, encryptedResult);
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                throw;
             }
-
-            return new KeyValuePair<string, string>(encryptedSalt, encryptedResult);
         }
     }
 }
